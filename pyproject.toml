@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "asdasd"
+version = "0.1.0"
+description = ""
+authors = ["g33kty <il3whenpquesmarkme@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "^1.14.0"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+faker = "^30.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
